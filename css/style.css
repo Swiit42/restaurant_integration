@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'roboto';
+}
+nav{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 99;
+    top: 5px;
+}
+nav img{
+    width: 13%;
+}
+.network{
+    padding-top: 50px;
+}
+.vector{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+li{
+    display: inline;
+    padding-right: 20px;
+}
+
+.network{
+    width: 20%;
+}
+.restaurant{
+    width: 100%;
+}
+h2{
+    text-align: center;
+    color: darkgray;
+    font-weight: lighter;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+li{
+    list-style-type: none;
+}
+.mosaique{
+    width: 100%;
+    height: 55px;
+    background-image: url(../images/clef-grecque2.svg);
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.chef{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.chef p{
+    width: 30%;
+}
+.chef img{
+    width: 30%;
+}
+.img_grec{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.img_grec img{
+    width: 30%;
+}
+.img_grec p{
+    width: 40%;
+}
+.cuisine{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.cuisine2 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.cuisine2 img{
+    width: 80%;
+}
+
+#chef_grec{
+    width: 40%;
+}
+.resa{
+    width: 100%;
+}
+#text_fin{
+    width: 80%;
+    margin-left: 120px;
+}
+
+
